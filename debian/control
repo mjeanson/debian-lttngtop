@@ -1,0 +1,19 @@
+Source: lttngtop
+Priority: extra
+Maintainer: Michael Jeanson <mjeanson@ubuntu.com>
+Build-Depends: debhelper (>= 9), dh-autoreconf,
+  libncurses5-dev, libglib2.0-dev, libpopt-dev, uuid-dev,
+  libbabeltrace-dev, libbabeltrace-ctf-dev
+Standards-Version: 3.9.5
+Section: utils
+Vcs-Git: git://anonscm.debian.org/collab-maint/lttngtop.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/lttngtop.git;a=summary
+Homepage: http://lttng.org/
+
+Package: lttngtop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: lttng-tools (>= 2.4), lttng-modules-dkms (>= 2.4)
+Description: LTTng 2.0 Top-like trace reader and analyzer
+ LTTngTop is an ncurses interface for reading and browsing traces recorded by
+ the LTTng tracer, and displaying various statistics.

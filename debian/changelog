@@ -1,0 +1,5 @@
+lttngtop (0.2-1) unstable; urgency=low
+
+  * Initial release. Closes: #741971
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Mon, 17 Mar 2014 14:24:56 -0400
