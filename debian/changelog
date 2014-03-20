@@ -1,3 +1,10 @@
+lttngtop (0.2-2) unstable; urgency=low
+
+  * [25fd06e] Added watch file
+  * [56bc180] Improve description in control file
+
+ -- Michael Jeanson <mjeanson@ubuntu.com>  Thu, 20 Mar 2014 14:47:13 -0400
+
 lttngtop (0.2-1) unstable; urgency=low
 
   * Initial release. Closes: #741971
