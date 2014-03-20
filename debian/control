@@ -15,5 +15,10 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: lttng-tools (>= 2.4), lttng-modules-dkms (>= 2.4)
 Description: LTTng 2.0 Top-like trace reader and analyzer
- LTTngTop is an ncurses interface for reading and browsing traces recorded by
- the LTTng tracer, and displaying various statistics.
+ The LTTng project aims at providing highly efficient tracing tools for Linux.
+ Its tracers help tracking down performance issues and debugging problems
+ involving multiple concurrent processes and threads. Tracing across multiple
+ systems is also possible.
+ .
+ This package provides LTTngTop an ncurses interface for reading and browsing
+ traces recorded by the LTTng tracer, and displaying various statistics.
